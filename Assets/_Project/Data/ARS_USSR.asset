@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef0213f49010c14d88d7865966b6432, type: 3}
+  m_Name: ARS_USSR
+  m_EditorClassIdentifier: Frontline.Runtime::Frontline.FactionArsenal
+  faction: 1
+  displayName: "\u0421\u0421\u0421\u0420"
+  weapons:
+  - {fileID: 11400000, guid: 185866977011e54499bd335335de1706, type: 2}
+  - {fileID: 11400000, guid: 7c08954e5ab94b2499ca63a53719ea89, type: 2}
+  - {fileID: 11400000, guid: 0c54c1ff5cc83e942b487f890ecc38d3, type: 2}
+  - {fileID: 11400000, guid: 7f014287e474461419c6feaa1e39c95e, type: 2}
+  - {fileID: 11400000, guid: b3abb7348bf1bd241852f621851a5fdc, type: 2}
+  - {fileID: 11400000, guid: 9704d49255eafb841a062578d264e53f, type: 2}
+  - {fileID: 11400000, guid: 1399046790f4ae14395ef130c249737f, type: 2}
+  - {fileID: 11400000, guid: ff43bd2ac35f0744298ccc22cccc29b0, type: 2}
+  classes:
+  - soldierClass: 0
+    primary: {fileID: 11400000, guid: 7c08954e5ab94b2499ca63a53719ea89, type: 2}
+    primaryAlt: {fileID: 11400000, guid: 1399046790f4ae14395ef130c249737f, type: 2}
+    secondary: {fileID: 11400000, guid: 7f014287e474461419c6feaa1e39c95e, type: 2}
+    melee: {fileID: 11400000, guid: ff43bd2ac35f0744298ccc22cccc29b0, type: 2}
+    hasTrowel: 1
+    gadget: {fileID: 0}
+    grenades: 2
+  - soldierClass: 1
+    primary: {fileID: 11400000, guid: 0c54c1ff5cc83e942b487f890ecc38d3, type: 2}
+    primaryAlt: {fileID: 0}
+    secondary: {fileID: 11400000, guid: b3abb7348bf1bd241852f621851a5fdc, type: 2}
+    melee: {fileID: 11400000, guid: ff43bd2ac35f0744298ccc22cccc29b0, type: 2}
+    hasTrowel: 1
+    gadget: {fileID: 0}
+    grenades: 2
+  - soldierClass: 2
+    primary: {fileID: 11400000, guid: 9704d49255eafb841a062578d264e53f, type: 2}
+    primaryAlt: {fileID: 0}
+    secondary: {fileID: 11400000, guid: 7f014287e474461419c6feaa1e39c95e, type: 2}
+    melee: {fileID: 11400000, guid: ff43bd2ac35f0744298ccc22cccc29b0, type: 2}
+    hasTrowel: 0
+    gadget: {fileID: 0}
+    grenades: 2
+  - soldierClass: 3
+    primary: {fileID: 11400000, guid: 185866977011e54499bd335335de1706, type: 2}
+    primaryAlt: {fileID: 0}
+    secondary: {fileID: 11400000, guid: b3abb7348bf1bd241852f621851a5fdc, type: 2}
+    melee: {fileID: 11400000, guid: ff43bd2ac35f0744298ccc22cccc29b0, type: 2}
+    hasTrowel: 0
+    gadget: {fileID: 0}
+    grenades: 2
+  soldierViewHandsPrefab: {fileID: 0}
+  botMeshLOD0: {fileID: 0}
+  botMeshLOD1: {fileID: 0}
+  botMeshLOD2: {fileID: 0}
+  botMaterial: {fileID: 0}

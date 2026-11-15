@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251b101a977925345a44e01b9bc8480a, type: 3}
+  m_Name: WPN_bayonet_de
+  m_EditorClassIdentifier: Frontline.Runtime::Frontline.WeaponDefinition
+  id: bayonet_de
+  displayName: "\u0428\u0442\u044B\u043A-\u043D\u043E\u0436 S84/98"
+  faction: 0
+  category: 7
+  fireMode: 0
+  roundsPerMinute: 90
+  damage: 55
+  headshotMultiplier: 1.8
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -0.225
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 2
+      value: 0.55
+      inSlope: -0.225
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxRange: 2
+  muzzleVelocity: 0
+  pelletsPerShot: 1
+  hipSpread: 0
+  adsSpread: 0.2
+  moveSpreadPenalty: 2
+  spreadPerShot: 0.35
+  spreadRecovery: 6
+  recoilVertical: 0
+  recoilHorizontal: 0
+  recoilRecoverySpeed: 8
+  adsRecoilMultiplier: 0.7
+  magazineSize: 1
+  reserveAmmo: 0
+  reloadType: 0
+  reloadTime: 0
+  reloadTimeEmpty: 0
+  clipSize: 5
+  adsTime: 0.25
+  adsFov: 80
+  moveSpeedMultiplier: 1.1
+  armorDamage: 0
+  projectileSpeed: 0
+  projectileGravity: 1
+  explosionRadius: 0
+  explosionDamage: 0
+  loudnessRadius: 4
+  viewModelPrefab: {fileID: 0}
+  worldModelPrefab: {fileID: 0}
+  fireSound: {fileID: 0}
+  fireSoundSuppressed: {fileID: 0}
+  reloadSound: {fileID: 0}
+  dryFireSound: {fileID: 0}
+  animatorProfile: 
+  compatibleAttachments: []

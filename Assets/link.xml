@@ -1,0 +1,9 @@
+<linker>
+  <!-- Ландшафт, его коллайдер и навигация создаются из кода во время игры: не даём IL2CPP вырезать эти модули. -->
+  <assembly fullname="UnityEngine.TerrainModule" preserve="all"/>
+  <assembly fullname="UnityEngine.TerrainPhysicsModule" preserve="all"/>
+  <assembly fullname="UnityEngine.PhysicsModule" preserve="all"/>
+  <assembly fullname="UnityEngine.AIModule" preserve="all"/>
+  <assembly fullname="UnityEngine.ParticleSystemModule" preserve="all"/>
+  <assembly fullname="UnityEngine.AudioModule" preserve="all"/>
+</linker>

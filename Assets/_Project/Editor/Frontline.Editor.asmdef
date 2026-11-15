@@ -1,0 +1,16 @@
+{
+    "name": "Frontline.Editor",
+    "rootNamespace": "Frontline.EditorTools",
+    "references": [
+        "Frontline.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "noEngineReferences": false
+}
